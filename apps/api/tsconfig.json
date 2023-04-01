@@ -1,0 +1,9 @@
+{
+  "extends": "@myapp/tsconfig/nest.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  }
+}

@@ -9,6 +9,7 @@
     "allowSyntheticDefaultImports": true,
     "target": "ESNext",
     "incremental": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "nodenext"
   }
 }
