@@ -19,7 +19,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@master
 
-      - uses: pnpm/action-setup@v2.2.2
+      - uses: pnpm/action-setup@v2.2.4
         with:
           version: 8.1.0
 
