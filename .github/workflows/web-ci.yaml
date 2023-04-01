@@ -3,6 +3,10 @@ name: apps/web CI
 on:
   workflow_dispatch:
   pull_request:
+    paths:
+      - apps/web/**/*
+      - package.json
+      - .github/workflows/web-ci.yaml
   push:
     branches:
       - main
@@ -15,12 +19,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@master
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
+      - uses: pnpm/action-setup@v2.2.2
         with:
-          node-version: 18
+          version: 8.1.0
 
-      - name: Cache
+      - name: Cache deps
         id: cache
         uses: actions/cache@v3
         with:
