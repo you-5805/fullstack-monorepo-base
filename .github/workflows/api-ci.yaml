@@ -1,0 +1,42 @@
+name: apps/api CI
+
+on:
+  workflow_dispatch:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Cache
+        id: cache
+        uses: actions/cache@v3
+        with:
+          path: '**/node_modules'
+          key: ${{ runner.os }}-deps-${{ hashFiles('pnpm-lock.yaml') }}
+
+      - name: Install deps when no chae hit
+        shell: bash
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: pnpm i --frozen-lockfile
+
+      - name: ESLint
+        run: pnpm run --filter api lint
+
+      - name: Type Check
+        run: pnpm run --filter api typecheck
+
+      - name: Test
+        run: pnpm run --filter api test
