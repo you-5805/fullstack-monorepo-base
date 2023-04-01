@@ -1,0 +1,11 @@
+{
+  "name": "myapp",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "preinstall": "npx only-allow pnpm"
+  },
+  "devDependencies": {
+    "turbo": "1.8.8"
+  }
+}

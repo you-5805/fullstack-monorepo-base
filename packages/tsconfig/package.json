@@ -1,0 +1,9 @@
+{
+  "name": "@myapp/tsconfig",
+  "license": "UNLICENSED",
+  "private": true,
+  "files": [
+    "./nest.json",
+    "./next.json"
+  ]
+}
