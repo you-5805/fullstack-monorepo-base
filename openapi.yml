@@ -1,0 +1,11 @@
+openapi: 3.0.0
+paths: {}
+info:
+  title: nestjs-api
+  description: ''
+  version: 0.0.1
+  contact: {}
+tags: []
+servers: []
+components:
+  schemas: {}
