@@ -1,4 +1,5 @@
 import { PrismaModule } from './prisma/prisma.module';
+import { TasksModule } from './tasks/tasks.module';
 import { ConfigModule } from '@nestjs/config';
 import { Module } from '@nestjs/common';
 
@@ -8,6 +9,7 @@ import { Module } from '@nestjs/common';
       isGlobal: true,
     }),
     PrismaModule,
+    TasksModule,
   ],
 })
 export class AppModule {}

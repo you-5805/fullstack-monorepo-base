@@ -1,5 +1,19 @@
 openapi: 3.0.0
-paths: {}
+paths:
+  /tasks:
+    get:
+      operationId: TasksController_findAll
+      summary: タスク一覧取得
+      parameters: []
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ListResponse'
+      tags:
+        - tasks
 info:
   title: nestjs-api
   description: ''
@@ -8,4 +22,47 @@ info:
 tags: []
 servers: []
 components:
-  schemas: {}
+  schemas:
+    Task:
+      type: object
+      properties:
+        id:
+          type: string
+          description: id
+          example: 137df8ae-09a1-4fa2-8dfa-18073bb4e106
+        createdAt:
+          type: string
+          description: 作成日時
+          example: '2021-01-01T00:00:00.000Z'
+        updatedAt:
+          type: string
+          description: 最終更新日時
+          example: '2021-01-01T00:00:00.000Z'
+        title:
+          type: string
+          description: タイトル
+          example: 仕様書作成
+        description:
+          type: string
+          description: 内容
+          example: 仕様書を作成する
+        hasDone:
+          type: boolean
+          description: 完了フラグ
+          example: false
+      required:
+        - id
+        - createdAt
+        - updatedAt
+        - title
+        - description
+        - hasDone
+    ListResponse:
+      type: object
+      properties:
+        tasks:
+          type: array
+          items:
+            $ref: '#/components/schemas/Task'
+      required:
+        - tasks
