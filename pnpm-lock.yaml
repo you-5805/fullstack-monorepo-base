@@ -5,8 +5,8 @@ importers:
   .:
     devDependencies:
       turbo:
-        specifier: 1.8.8
-        version: 1.8.8
+        specifier: 1.9.9
+        version: 1.9.9
 
   apps/api:
     dependencies:
@@ -2445,7 +2445,7 @@ packages:
       '@nestjs/platform-express':
         optional: true
     dependencies:
-      '@nestjs/common': 9.3.12(class-transformer@0.5.1)(class-validator@0.13.2)(reflect-metadata@0.1.13)(rxjs@7.8.0)
+      '@nestjs/common': 9.3.12(class-transformer@0.5.1)(class-validator@0.14.0)(reflect-metadata@0.1.13)(rxjs@7.8.0)
       '@nestjs/core': 9.3.12(@nestjs/common@9.3.12)(reflect-metadata@0.1.13)(rxjs@7.8.0)
       tslib: 2.5.0
     dev: true
@@ -2780,7 +2780,7 @@ packages:
       '@storybook/csf-plugin': 7.0.0
       '@storybook/csf-tools': 7.0.0
       '@storybook/global': 5.0.0
-      '@storybook/mdx2-csf': 1.0.0-next.7
+      '@storybook/mdx2-csf': 1.1.0-next.1
       '@storybook/node-logger': 7.0.0
       '@storybook/postinstall': 7.0.0
       '@storybook/preview-api': 7.0.0
@@ -3299,7 +3299,7 @@ packages:
       '@storybook/core-events': 7.0.0
       '@storybook/csf': 0.0.2-next.11
       '@storybook/csf-tools': 7.0.0
-      '@storybook/docs-mdx': 0.0.1-next.6
+      '@storybook/docs-mdx': 0.0.1-next.7
       '@storybook/global': 5.0.0
       '@storybook/manager': 7.0.0
       '@storybook/node-logger': 7.0.0
@@ -3390,8 +3390,8 @@ packages:
       type-fest: 2.19.0
     dev: true
 
-  /@storybook/docs-mdx@0.0.1-next.6:
-    resolution: {integrity: sha512-DjoSIXADmLJtdroXAjUotFiZlcZ2usWhqrS7aeOtZs0DVR0Ws5WQjnwtpDUXt8gryTSd+OZJ0cNsDcqg4JDEvQ==}
+  /@storybook/docs-mdx@0.0.1-next.7:
+    resolution: {integrity: sha512-JbgBf/EMBtx65iXtB3pOiX3818UeL9jZ+KAY241OAPqJVXjMQ5KaVOdg/57MSmd508HDIGx7CiImOMEmWwQ9/g==}
     dev: true
 
   /@storybook/docs-tools@7.0.0:
@@ -3451,8 +3451,8 @@ packages:
     resolution: {integrity: sha512-lMSM6PQvSLtq46JVaMq/xuxjOzZuD20DMcJzYnjFL3bkMjmkL2hHyzYjfs4BTI9i9nhPqXF/rZSwFGGG+ok9dw==}
     dev: true
 
-  /@storybook/mdx2-csf@1.0.0-next.7:
-    resolution: {integrity: sha512-xcQ8w4IecABAjsakaZTGiUEnEgFZzVKsMjqECjd+qdkwgD3R/kwrBdfyC15CLM5Ye1miPwYBIwJGeBXB9qxsZg==}
+  /@storybook/mdx2-csf@1.1.0-next.1:
+    resolution: {integrity: sha512-ONvFBZySHsBIkUYGrUM8FCG2tDKf663TIErztPSOghOpmBGyFLjSsXJHkNWiRi4c740PoemLqJd2XZZVlXRVLQ==}
     dev: true
 
   /@storybook/nextjs@7.0.0(@babel/core@7.21.4)(esbuild@0.17.14)(next@13.2.4)(react-dom@18.2.0)(react@18.2.0)(typescript@4.9.5)(webpack@5.77.0):
@@ -4127,7 +4127,6 @@ packages:
 
   /@types/validator@13.7.14:
     resolution: {integrity: sha512-J6OAed6rhN6zyqL9Of6ZMamhlsOEU/poBVvbHr/dKOYKTeuYYMlDkMv+b6UUV0o2i0tw73cgyv/97WTWaUl0/g==}
-    dev: false
 
   /@types/yargs-parser@21.0.0:
     resolution: {integrity: sha512-iO9ZQHkZxHn4mSakYV0vFHAVDyEOIJQrV2uZ06HxEPcx+mt8swXoZHIbaaJ2crJYFfErySgktuTZ3BeLz+XmFA==}
@@ -10987,65 +10986,65 @@ packages:
       typescript: 4.9.5
     dev: true
 
-  /turbo-darwin-64@1.8.8:
-    resolution: {integrity: sha512-18cSeIm7aeEvIxGyq7PVoFyEnPpWDM/0CpZvXKHpQ6qMTkfNt517qVqUTAwsIYqNS8xazcKAqkNbvU1V49n65Q==}
+  /turbo-darwin-64@1.9.9:
+    resolution: {integrity: sha512-UDGM9E21eCDzF5t1F4rzrjwWutcup33e7ZjNJcW/mJDPorazZzqXGKEPIy9kXwKhamUUXfC7668r6ZuA1WXF2Q==}
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-darwin-arm64@1.8.8:
-    resolution: {integrity: sha512-ruGRI9nHxojIGLQv1TPgN7ud4HO4V8mFBwSgO6oDoZTNuk5ybWybItGR+yu6fni5vJoyMHXOYA2srnxvOc7hjQ==}
+  /turbo-darwin-arm64@1.9.9:
+    resolution: {integrity: sha512-VyfkXzTJpYLTAQ9krq2myyEq7RPObilpS04lgJ4OO1piq76RNmSpX9F/t9JCaY9Pj/4TL7i0d8PM7NGhwEA5Ag==}
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-linux-64@1.8.8:
-    resolution: {integrity: sha512-N/GkHTHeIQogXB1/6ZWfxHx+ubYeb8Jlq3b/3jnU4zLucpZzTQ8XkXIAfJG/TL3Q7ON7xQ8yGOyGLhHL7MpFRg==}
+  /turbo-linux-64@1.9.9:
+    resolution: {integrity: sha512-Fu1MY29Odg8dHOqXcpIIGC3T63XLOGgnGfbobXMKdrC7JQDvtJv8TUCYciRsyknZYjyyKK1z6zKuYIiDjf3KeQ==}
     cpu: [x64]
     os: [linux]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-linux-arm64@1.8.8:
-    resolution: {integrity: sha512-hKqLbBHgUkYf2Ww8uBL9UYdBFQ5677a7QXdsFhONXoACbDUPvpK4BKlz3NN7G4NZ+g9dGju+OJJjQP0VXRHb5w==}
+  /turbo-linux-arm64@1.9.9:
+    resolution: {integrity: sha512-50LI8NafPuJxdnMCBeDdzgyt1cgjQG7FwkyY336v4e95WJPUVjrHdrKH6jYXhOUyrv9+jCJxwX1Yrg02t5yJ1g==}
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-windows-64@1.8.8:
-    resolution: {integrity: sha512-2ndjDJyzkNslXxLt+PQuU21AHJWc8f6MnLypXy3KsN4EyX/uKKGZS0QJWz27PeHg0JS75PVvhfFV+L9t9i+Yyg==}
+  /turbo-windows-64@1.9.9:
+    resolution: {integrity: sha512-9IsTReoLmQl1IRsy3WExe2j2RKWXQyXujfJ4fXF+jp08KxjVF4/tYP2CIRJx/A7UP/7keBta27bZqzAjsmbSTA==}
     cpu: [x64]
     os: [win32]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo-windows-arm64@1.8.8:
-    resolution: {integrity: sha512-xCA3oxgmW9OMqpI34AAmKfOVsfDljhD5YBwgs0ZDsn5h3kCHhC4x9W5dDk1oyQ4F5EXSH3xVym5/xl1J6WRpUg==}
+  /turbo-windows-arm64@1.9.9:
+    resolution: {integrity: sha512-CUu4hpeQo68JjDr0V0ygTQRLbS+/sNfdqEVV+Xz9136vpKn2WMQLAuUBVZV0Sp0S/7i+zGnplskT0fED+W46wQ==}
     cpu: [arm64]
     os: [win32]
     requiresBuild: true
     dev: true
     optional: true
 
-  /turbo@1.8.8:
-    resolution: {integrity: sha512-qYJ5NjoTX+591/x09KgsDOPVDUJfU9GoS+6jszQQlLp1AHrf1wRFA3Yps8U+/HTG03q0M4qouOfOLtRQP4QypA==}
+  /turbo@1.9.9:
+    resolution: {integrity: sha512-+ZS66LOT7ahKHxh6XrIdcmf2Yk9mNpAbPEj4iF2cs0cAeaDU3xLVPZFF0HbSho89Uxwhx7b5HBgPbdcjQTwQkg==}
     hasBin: true
     requiresBuild: true
     optionalDependencies:
-      turbo-darwin-64: 1.8.8
-      turbo-darwin-arm64: 1.8.8
-      turbo-linux-64: 1.8.8
-      turbo-linux-arm64: 1.8.8
-      turbo-windows-64: 1.8.8
-      turbo-windows-arm64: 1.8.8
+      turbo-darwin-64: 1.9.9
+      turbo-darwin-arm64: 1.9.9
+      turbo-linux-64: 1.9.9
+      turbo-linux-arm64: 1.9.9
+      turbo-windows-64: 1.9.9
+      turbo-windows-arm64: 1.9.9
     dev: true
 
   /type-check@0.3.2:
