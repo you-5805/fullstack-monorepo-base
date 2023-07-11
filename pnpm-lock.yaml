@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 importers:
 
   .:
@@ -220,8 +224,8 @@ importers:
         specifier: ^2.8.7
         version: 2.8.7
       prettier-plugin-tailwindcss:
-        specifier: ^0.2.5
-        version: 0.2.6(prettier@2.8.7)
+        specifier: ^0.4.0
+        version: 0.4.0(prettier@2.8.7)
       storybook:
         specifier: ^7.0.0
         version: 7.0.0
@@ -2445,7 +2449,7 @@ packages:
       '@nestjs/platform-express':
         optional: true
     dependencies:
-      '@nestjs/common': 9.3.12(class-transformer@0.5.1)(class-validator@0.13.2)(reflect-metadata@0.1.13)(rxjs@7.8.0)
+      '@nestjs/common': 9.3.12(class-transformer@0.5.1)(class-validator@0.14.0)(reflect-metadata@0.1.13)(rxjs@7.8.0)
       '@nestjs/core': 9.3.12(@nestjs/common@9.3.12)(reflect-metadata@0.1.13)(rxjs@7.8.0)
       tslib: 2.5.0
     dev: true
@@ -2780,7 +2784,7 @@ packages:
       '@storybook/csf-plugin': 7.0.0
       '@storybook/csf-tools': 7.0.0
       '@storybook/global': 5.0.0
-      '@storybook/mdx2-csf': 1.0.0-next.7
+      '@storybook/mdx2-csf': 1.1.0-next.1
       '@storybook/node-logger': 7.0.0
       '@storybook/postinstall': 7.0.0
       '@storybook/preview-api': 7.0.0
@@ -2875,7 +2879,7 @@ packages:
     dependencies:
       '@storybook/client-logger': 7.0.0
       '@storybook/core-events': 7.0.0
-      '@storybook/csf': 0.0.2-next.11
+      '@storybook/csf': 0.1.1-next.0
       '@storybook/global': 5.0.0
       '@storybook/manager-api': 7.0.0(react-dom@18.2.0)(react@18.2.0)
       '@storybook/preview-api': 7.0.0
@@ -3016,7 +3020,7 @@ packages:
       '@storybook/client-logger': 7.0.0
       '@storybook/components': 7.0.0(react-dom@18.2.0)(react@18.2.0)
       '@storybook/core-events': 7.0.0
-      '@storybook/csf': 0.0.2-next.11
+      '@storybook/csf': 0.1.1-next.0
       '@storybook/docs-tools': 7.0.0
       '@storybook/global': 5.0.0
       '@storybook/manager-api': 7.0.0(react-dom@18.2.0)(react@18.2.0)
@@ -3220,7 +3224,7 @@ packages:
       '@babel/core': 7.21.4
       '@babel/preset-env': 7.20.2(@babel/core@7.21.4)
       '@babel/types': 7.21.4
-      '@storybook/csf': 0.0.2-next.11
+      '@storybook/csf': 0.1.1-next.0
       '@storybook/csf-tools': 7.0.0
       '@storybook/node-logger': 7.0.0
       '@storybook/types': 7.0.0
@@ -3241,7 +3245,7 @@ packages:
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
       '@storybook/client-logger': 7.0.0
-      '@storybook/csf': 0.0.2-next.11
+      '@storybook/csf': 0.1.1-next.0
       '@storybook/global': 5.0.0
       '@storybook/theming': 7.0.0(react-dom@18.2.0)(react@18.2.0)
       '@storybook/types': 7.0.0
@@ -3297,9 +3301,9 @@ packages:
       '@storybook/builder-manager': 7.0.0
       '@storybook/core-common': 7.0.0
       '@storybook/core-events': 7.0.0
-      '@storybook/csf': 0.0.2-next.11
+      '@storybook/csf': 0.1.1-next.0
       '@storybook/csf-tools': 7.0.0
-      '@storybook/docs-mdx': 0.0.1-next.6
+      '@storybook/docs-mdx': 0.0.1-next.7
       '@storybook/global': 5.0.0
       '@storybook/manager': 7.0.0
       '@storybook/node-logger': 7.0.0
@@ -3369,7 +3373,7 @@ packages:
       '@babel/parser': 7.21.4
       '@babel/traverse': 7.21.4
       '@babel/types': 7.21.4
-      '@storybook/csf': 0.0.2-next.11
+      '@storybook/csf': 0.1.1-next.0
       '@storybook/types': 7.0.0
       fs-extra: 11.1.1
       recast: 0.23.1
@@ -3384,14 +3388,14 @@ packages:
       lodash: 4.17.21
     dev: true
 
-  /@storybook/csf@0.0.2-next.11:
-    resolution: {integrity: sha512-xGt0YSVxZb43sKmEf1GIQD8xEbo+c+S6khDEL7Qu/pYA0gh5z3WUuhOlovnelYj/YJod+XRsfVvk23AaRfUJ4Q==}
+  /@storybook/csf@0.1.1-next.0:
+    resolution: {integrity: sha512-2M8E4CZOVW77P9lrgZZc2rcwxhNKVVykpzbcAauc3bots7xvDJMG60EasMRB/Y+cfqnSu6aaSUEVmKHTKsVJ3A==}
     dependencies:
       type-fest: 2.19.0
     dev: true
 
-  /@storybook/docs-mdx@0.0.1-next.6:
-    resolution: {integrity: sha512-DjoSIXADmLJtdroXAjUotFiZlcZ2usWhqrS7aeOtZs0DVR0Ws5WQjnwtpDUXt8gryTSd+OZJ0cNsDcqg4JDEvQ==}
+  /@storybook/docs-mdx@0.0.1-next.7:
+    resolution: {integrity: sha512-JbgBf/EMBtx65iXtB3pOiX3818UeL9jZ+KAY241OAPqJVXjMQ5KaVOdg/57MSmd508HDIGx7CiImOMEmWwQ9/g==}
     dev: true
 
   /@storybook/docs-tools@7.0.0:
@@ -3431,7 +3435,7 @@ packages:
       '@storybook/channels': 7.0.0
       '@storybook/client-logger': 7.0.0
       '@storybook/core-events': 7.0.0
-      '@storybook/csf': 0.0.2-next.11
+      '@storybook/csf': 0.1.1-next.0
       '@storybook/global': 5.0.0
       '@storybook/router': 7.0.0(react-dom@18.2.0)(react@18.2.0)
       '@storybook/theming': 7.0.0(react-dom@18.2.0)(react@18.2.0)
@@ -3451,8 +3455,8 @@ packages:
     resolution: {integrity: sha512-lMSM6PQvSLtq46JVaMq/xuxjOzZuD20DMcJzYnjFL3bkMjmkL2hHyzYjfs4BTI9i9nhPqXF/rZSwFGGG+ok9dw==}
     dev: true
 
-  /@storybook/mdx2-csf@1.0.0-next.7:
-    resolution: {integrity: sha512-xcQ8w4IecABAjsakaZTGiUEnEgFZzVKsMjqECjd+qdkwgD3R/kwrBdfyC15CLM5Ye1miPwYBIwJGeBXB9qxsZg==}
+  /@storybook/mdx2-csf@1.1.0-next.1:
+    resolution: {integrity: sha512-ONvFBZySHsBIkUYGrUM8FCG2tDKf663TIErztPSOghOpmBGyFLjSsXJHkNWiRi4c740PoemLqJd2XZZVlXRVLQ==}
     dev: true
 
   /@storybook/nextjs@7.0.0(@babel/core@7.21.4)(esbuild@0.17.14)(next@13.2.4)(react-dom@18.2.0)(react@18.2.0)(typescript@4.9.5)(webpack@5.77.0):
@@ -3608,7 +3612,7 @@ packages:
       '@storybook/channels': 7.0.0
       '@storybook/client-logger': 7.0.0
       '@storybook/core-events': 7.0.0
-      '@storybook/csf': 0.0.2-next.11
+      '@storybook/csf': 0.1.1-next.0
       '@storybook/global': 5.0.0
       '@storybook/types': 7.0.0
       '@types/qs': 6.9.7
@@ -4127,7 +4131,6 @@ packages:
 
   /@types/validator@13.7.14:
     resolution: {integrity: sha512-J6OAed6rhN6zyqL9Of6ZMamhlsOEU/poBVvbHr/dKOYKTeuYYMlDkMv+b6UUV0o2i0tw73cgyv/97WTWaUl0/g==}
-    dev: false
 
   /@types/yargs-parser@21.0.0:
     resolution: {integrity: sha512-iO9ZQHkZxHn4mSakYV0vFHAVDyEOIJQrV2uZ06HxEPcx+mt8swXoZHIbaaJ2crJYFfErySgktuTZ3BeLz+XmFA==}
@@ -9361,21 +9364,21 @@ packages:
       fast-diff: 1.2.0
     dev: true
 
-  /prettier-plugin-tailwindcss@0.2.6(prettier@2.8.7):
-    resolution: {integrity: sha512-F+7XCl9RLF/LPrGdUMHWpsT6TM31JraonAUyE6eBmpqymFvDwyl0ETHsKFHP1NG+sEfv8bmKqnTxEbWQbHPlBA==}
+  /prettier-plugin-tailwindcss@0.4.0(prettier@2.8.7):
+    resolution: {integrity: sha512-Rna0sDPETA0KNhMHlN8wxKNgfSa8mTl2hPPAGxnbv6tUcHT6J4RQmQ8TLXyhB7Dm5Von4iHloBxTyClYM6wT0A==}
     engines: {node: '>=12.17.0'}
     peerDependencies:
       '@ianvs/prettier-plugin-sort-imports': '*'
-      '@prettier/plugin-php': '*'
       '@prettier/plugin-pug': '*'
       '@shopify/prettier-plugin-liquid': '*'
       '@shufo/prettier-plugin-blade': '*'
       '@trivago/prettier-plugin-sort-imports': '*'
-      prettier: '>=2.2.0'
+      prettier: ^2.2 || ^3.0
       prettier-plugin-astro: '*'
       prettier-plugin-css-order: '*'
       prettier-plugin-import-sort: '*'
       prettier-plugin-jsdoc: '*'
+      prettier-plugin-marko: '*'
       prettier-plugin-organize-attributes: '*'
       prettier-plugin-organize-imports: '*'
       prettier-plugin-style-order: '*'
@@ -9383,8 +9386,6 @@ packages:
       prettier-plugin-twig-melody: '*'
     peerDependenciesMeta:
       '@ianvs/prettier-plugin-sort-imports':
-        optional: true
-      '@prettier/plugin-php':
         optional: true
       '@prettier/plugin-pug':
         optional: true
@@ -9401,6 +9402,8 @@ packages:
       prettier-plugin-import-sort:
         optional: true
       prettier-plugin-jsdoc:
+        optional: true
+      prettier-plugin-marko:
         optional: true
       prettier-plugin-organize-attributes:
         optional: true
@@ -10730,6 +10733,54 @@ packages:
       webpack: 5.77.0(esbuild@0.17.14)
     dev: true
 
+  /terser-webpack-plugin@5.3.7(webpack@5.76.2):
+    resolution: {integrity: sha512-AfKwIktyP7Cu50xNjXF/6Qb5lBNzYaWpU6YfoX3uZicTx0zTy0stDDCsvjDapKsSDvOeWo5MEq4TmdBy2cNoHw==}
+    engines: {node: '>= 10.13.0'}
+    peerDependencies:
+      '@swc/core': '*'
+      esbuild: '*'
+      uglify-js: '*'
+      webpack: ^5.1.0
+    peerDependenciesMeta:
+      '@swc/core':
+        optional: true
+      esbuild:
+        optional: true
+      uglify-js:
+        optional: true
+    dependencies:
+      '@jridgewell/trace-mapping': 0.3.17
+      jest-worker: 27.5.1
+      schema-utils: 3.1.1
+      serialize-javascript: 6.0.1
+      terser: 5.16.8
+      webpack: 5.76.2
+    dev: true
+
+  /terser-webpack-plugin@5.3.7(webpack@5.77.0):
+    resolution: {integrity: sha512-AfKwIktyP7Cu50xNjXF/6Qb5lBNzYaWpU6YfoX3uZicTx0zTy0stDDCsvjDapKsSDvOeWo5MEq4TmdBy2cNoHw==}
+    engines: {node: '>= 10.13.0'}
+    peerDependencies:
+      '@swc/core': '*'
+      esbuild: '*'
+      uglify-js: '*'
+      webpack: ^5.1.0
+    peerDependenciesMeta:
+      '@swc/core':
+        optional: true
+      esbuild:
+        optional: true
+      uglify-js:
+        optional: true
+    dependencies:
+      '@jridgewell/trace-mapping': 0.3.17
+      jest-worker: 27.5.1
+      schema-utils: 3.1.1
+      serialize-javascript: 6.0.1
+      terser: 5.16.8
+      webpack: 5.77.0
+    dev: true
+
   /terser@5.16.8:
     resolution: {integrity: sha512-QI5g1E/ef7d+PsDifb+a6nnVgC4F22Bg6T0xrBrz6iloVB4PUkkunp6V8nzoOOZJIzjWVdAGqCdlKlhLq/TbIA==}
     engines: {node: '>=10'}
@@ -10880,7 +10931,7 @@ packages:
       micromatch: 4.0.5
       semver: 7.3.8
       typescript: 4.9.5
-      webpack: 5.77.0(esbuild@0.17.14)
+      webpack: 5.77.0
     dev: true
 
   /ts-node@10.9.1(@types/node@18.15.11)(typescript@4.9.5):
@@ -11541,7 +11592,47 @@ packages:
       neo-async: 2.6.2
       schema-utils: 3.1.1
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.7(esbuild@0.17.14)(webpack@5.77.0)
+      terser-webpack-plugin: 5.3.7(webpack@5.76.2)
+      watchpack: 2.4.0
+      webpack-sources: 3.2.3
+    transitivePeerDependencies:
+      - '@swc/core'
+      - esbuild
+      - uglify-js
+    dev: true
+
+  /webpack@5.77.0:
+    resolution: {integrity: sha512-sbGNjBr5Ya5ss91yzjeJTLKyfiwo5C628AFjEa6WSXcZa4E+F57om3Cc8xLb1Jh0b243AWuSYRf3dn7HVeFQ9Q==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
+    peerDependencies:
+      webpack-cli: '*'
+    peerDependenciesMeta:
+      webpack-cli:
+        optional: true
+    dependencies:
+      '@types/eslint-scope': 3.7.4
+      '@types/estree': 0.0.51
+      '@webassemblyjs/ast': 1.11.1
+      '@webassemblyjs/wasm-edit': 1.11.1
+      '@webassemblyjs/wasm-parser': 1.11.1
+      acorn: 8.8.2
+      acorn-import-assertions: 1.8.0(acorn@8.8.2)
+      browserslist: 4.21.5
+      chrome-trace-event: 1.0.3
+      enhanced-resolve: 5.12.0
+      es-module-lexer: 0.9.3
+      eslint-scope: 5.1.1
+      events: 3.3.0
+      glob-to-regexp: 0.4.1
+      graceful-fs: 4.2.11
+      json-parse-even-better-errors: 2.3.1
+      loader-runner: 4.3.0
+      mime-types: 2.1.35
+      neo-async: 2.6.2
+      schema-utils: 3.1.1
+      tapable: 2.2.1
+      terser-webpack-plugin: 5.3.7(webpack@5.77.0)
       watchpack: 2.4.0
       webpack-sources: 3.2.3
     transitivePeerDependencies:
